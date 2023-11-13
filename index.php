@@ -74,7 +74,7 @@
                             <option value="Assam">Assam</option>
                             <option value="Assam">Assam</option>
                             <option value="Assam">Assam</option>
-                        </select>                        
+                        </select>
                     </div>
                 </div>
                 <div class="col-lg-3 col-xxl-3 col-md-6">
@@ -89,7 +89,7 @@
                             <option value="3Wh">3Wh</option>
                             <option value="4Wh">4WH</option>
                             <option value="Commercial">Commercial</option>
-                        </select>                        
+                        </select>
                     </div>
                 </div>
                 <div class="col-lg-3 col-xxl-3 col-md-6">
@@ -106,14 +106,19 @@
                             <option value="Ola">Ola</option>
                             <option value="Ola">Ola</option>
                             <option value="Ola">Ola</option>
-                        </select>                        
+                        </select>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
 </div>
+<style>
+    .text-blue-700.elm-2-legend {
+        width: 100%;
+        max-width: 150px;
+    }
+</style>
 <div class="container-fluid">
     <div class="row" style="gap: 15px 0;">
         <!-- Element-1 Start -->
@@ -178,70 +183,65 @@
         <!-- Element-2 Start -->
         <div class="col-sm-6 col-md-7">
             <div class="card h-100">
-                <div class="card-header fw-bold text-primary">Element 2 -By Value</div>
+                <div class="card-header fw-bold text-blue-700">By Value</div>
                 <div class="card-body">
                     <div class="row" style="gap: 15px 0;">
                         <div class="col-sm-6 col-md-6">
-                            <div class="card">
-                                <div class="card-body  ">
+                            <div class="card h-100">
+                                <div class="card-body">
                                     <div class="d-flex justify-content-between">
-                                        <div>
-                                            <h5 class="fw-bold text-primary">Regional <br> Spread</h5>
-                                            <p class=""> By Value</p>
-                                            <h4 class="mt-3 font-size-22">12,253</h4>
+                                        <div class="text-blue-700 elm-2-legend">
+                                            <h5 class="fw-bold fs-30">Regional Spread</h5>
+                                            <p class="fs-14 fw-light">By Value</p>
+                                            <h4 class="fs-25">12,253</h4>
                                         </div>
-
+                                        <div id="TopRegion"></div>
                                     </div>
                                 </div>
-                                <div id="TopRegion"> </div>
                             </div>
                         </div>
-
                         <div class="col-sm-6 col-md-6">
-                            <div class="card">
-                                <div class="card-body  ">
+                            <div class="card h-100">
+                                <div class="card-body">
                                     <div class="d-flex justify-content-between">
-                                        <div>
-                                            <h5 class="fw-bold text-primary">Top <br> States</h5>
-                                            <p class=""> By Value</p>
-                                            <h4 class="mt-3 font-size-22">12,253</h4>
+                                        <div class="text-blue-700 elm-2-legend">
+                                            <h5 class="fw-bold fs-30">Top States</h5>
+                                            <p class="fs-14 fw-light">By Value</p>
+                                            <h4 class="fs-25">12,253</h4>
                                         </div>
+                                        <div id="TopState"></div>
                                     </div>
                                 </div>
-                                <div id="TopState"> </div>
                             </div>
                         </div>
-
                         <div class="col-sm-6 col-md-6">
-                            <div class="card">
-                                <div class="card-body  ">
+                            <div class="card h-100">
+                                <div class="card-body">
                                     <div class="d-flex justify-content-between">
-                                        <div>
-                                            <h5 class="fw-bold text-primary">Top <br> Category</h5>
-                                            <p class=""> By Value</p>
-                                            <h4 class="mt-3 font-size-22">12,253</h4>
+                                        <div class="text-blue-700 elm-2-legend">
+                                            <h5 class="fw-bold fs-30">Top Category</h5>
+                                            <p class="fs-14 fw-light">By Value</p>
+                                            <h4 class="fs-25">12,253</h4>
                                         </div>
+                                        <div id="TopCategoray"></div>
                                     </div>
                                 </div>
-                                <div id="TopCategoray"> </div>
                             </div>
                         </div>
-
                         <div class="col-sm-6 col-md-6">
-                            <div class="card">
-                                <div class="card-body  ">
+                            <div class="card h-100">
+                                <div class="card-body">
                                     <div class="d-flex justify-content-between">
-                                        <div>
-                                            <h5 class="fw-bold text-primary">Top<br> Palyers</h5>
-                                            <p class="fs-6"> By Value</p>
-                                            <h4 class="mt-3 font-size-22">12,253</h4>
+                                        <div class="text-blue-700 elm-2-legend">
+                                            <h5 class="fw-bold fs-30">Top Palyers</h5>
+                                            <p class="fs-14 fw-light">By Value</p>
+                                            <h4 class="fs-25">12,253</h4>
                                         </div>
+                                        <div id="TopPalyer"></div>
                                     </div>
                                 </div>
-                                <div id="TopPalyer"> </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -379,15 +379,18 @@
             },
             grid: {
                 padding: {
-                    bottom: 20
-                }
+                    top: 0,
+                    right: 0,
+                    bottom: 0,
+                    left: 0
+                },
             },
             legend: {
                 position: 'bottom', // or 'right' or any other valid position
             },
 
             responsive: [{
-                breakpoint: 60,
+                // breakpoint: 60,
                 options: {
                     chart: {
                         width: 50
@@ -416,19 +419,22 @@
             },
             grid: {
                 padding: {
-                    bottom: 20
-                }
+                    top: 0,
+                    right: 0,
+                    bottom: 0,
+                    left: 0
+                },
             },
             legend: {
                 position: 'bottom', // or 'right' or any other valid position
             },
 
             responsive: [{
-                breakpoint: 60,
+                // breakpoint: 60,
                 options: {
-                    chart: {
-                        width: 50
-                    },
+                    // chart: {
+                    //     width: 50
+                    // },
                     legend: {
                         position: 'bottom'
                     },
@@ -453,8 +459,11 @@
             },
             grid: {
                 padding: {
-                    bottom: 20
-                }
+                    top: 0,
+                    right: 0,
+                    bottom: 0,
+                    left: 0
+                },
             },
             legend: {
                 position: 'bottom', // or 'right' or any other valid position
@@ -474,40 +483,49 @@
         };
         var valueCat = new ApexCharts(document.querySelector("#TopCategoray"), topValCat);
         valueCat.render();
+        
 
         // Top Players
         var topValPlayer = {
             series: [44, 55, ],
             chart: {
                 type: 'donut',
+                height: '200px',
+                width: '100%',
+                offsetX: 0,
+                offsetY: 0
             },
             plotOptions: {
                 pie: {
                     startAngle: -90,
                     endAngle: 90,
-                    offsetY: 10
+                    offsetY: 0
                 }
             },
             grid: {
                 padding: {
-                    bottom: 20
-                }
+                    top: 0,
+                    right: 0,
+                    bottom: 0,
+                    left: 0
+                },
             },
             legend: {
-                position: 'bottom', // or 'right' or any other valid position
+                show: true,
+                position: 'bottom',
+                horizontalAlign: 'center',
+                floating: true,
+                fontSize: '12px',
+                fontFamily: 'Helvetica, Arial',
+                fontWeight: 100,
+                height: 20,
+                offsetX: 0,
+                offsetY: 0,
+                itemMargin: {
+                    horizontal: 0,
+                    vertical: 0
+                },
             },
-
-            responsive: [{
-                breakpoint: 60,
-                options: {
-                    chart: {
-                        width: 50
-                    },
-                    legend: {
-                        position: 'bottom'
-                    },
-                }
-            }]
         };
         var valuePlayer = new ApexCharts(document.querySelector("#TopPalyer"), topValPlayer);
         valuePlayer.render();
