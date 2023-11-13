@@ -1,0 +1,138 @@
+@import "bootstrap.min.css";
+@import "owl.carousel.min.css";
+@import "owl.theme.default.min.css";
+@import "apexcharts.css";
+
+:root {
+  --body-font: "Nunito", sans-serif;
+  --desktop-width: 250px;
+  --mobile-width: 60px;
+  --header-height: 65px;
+
+  /* Color valiables */
+  --white-100:#ffffff;
+  --blue-100: #c4d9ff;
+  --blue-200: #a3bff4;
+  --blue-300: #82a5e9;
+  --blue-400: #618cdd;
+  --blue-500: #4072d2;
+  --blue-600: #1f58c7;
+  --blue-700: #174295;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--body-font);
+  transition: 0.5s;
+}
+a {
+  text-decoration: none;
+}
+
+
+
+.text-white-100 {
+  color: var(--white-100);
+}
+.text-blue-100 {
+  color: var(--blue-100);
+}
+.text-blue-200 {
+  color: var(--blue-200);
+}
+.text-blue-300 {
+  color: var(--blue-300);
+}
+.text-blue-400 {
+  color: var(--blue-400);
+}
+.text-blue-500 {
+  color: var(--blue-500);
+}
+.text-blue-600 {
+  color: var(--blue-600);
+}
+.text-blue-700 {
+  color: var(--blue-700);
+}
+
+.bg-white-100 {
+  background: var(--white-100);
+}
+.bg-blue-100 {
+  background: var(--blue-100);
+}
+.bg-blue-200 {
+  background: var(--blue-200);
+}
+.bg-blue-300 {
+  background: var(--blue-300);
+}
+.bg-blue-400 {
+  background: var(--blue-400);
+}
+.bg-blue-500 {
+  background: var(--blue-500);
+}
+.bg-blue-600 {
+  background: var(--blue-600);
+}
+.bg-blue-700 {
+  background: var(--blue-700);
+}
+
+
+
+
+
+/*============= navigation toggle start ======== */
+
+.desk-v-width .sidebar-width {
+  width: var(--desktop-width);
+  border-right: 1px solid var(--blue-200);
+  position: fixed;
+}
+.desk-v-width .full-width-container {
+  width: calc(100% - var(--desktop-width));
+  margin-left: var(--desktop-width);
+}
+
+.mobi-v-width .sidebar-width {
+  width: var(--mobile-width);
+  border-right: 1px solid var(--blue-200);
+  position: fixed;
+}
+.mobi-v-width .full-width-container {
+  width: calc(100% - var(--mobile-width));
+  margin-left: var(--mobile-width);
+}
+
+.wrapper-container header {
+  border-bottom: 1px solid var(--blue-200);
+  height: var(--header-height);
+  position: sticky;
+	top: 0;
+	background: var(--white-100);
+	z-index: 9;
+}
+.wrapper-container .logo {
+  border-bottom: 1px solid var(--blue-200);
+  height: var(--header-height);
+}
+.wrapper-container .logo .nav_logo {
+  display: block;
+  margin: auto;
+  width: fit-content;
+}
+
+.wrapper-container aside{
+  overflow: hidden;
+}
+.wrapper-container aside nav{
+  min-width: var(--desktop-width);
+}
+
+/*============= navigation toggle end ======== */
+

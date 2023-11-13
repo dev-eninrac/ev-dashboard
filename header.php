@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/fonts/fonts.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="wrapper-container desk-v-width">
+        <div class="d-flex">
+            <aside class="sidebar-width menu-wrapper h-100">
+                <div class="logo d-flex">
+                    <a href="index.html" class="nav_logo">
+                        <img src="./assets/images/Group-1.png" alt="">
+                    </a>
+                </div>
+                <nav class="nav">
+                    <?php require('sidebar.php') ?>
+                </nav>
+            </aside>
+            <div class="full-width-container content-wrapper">
+                <div class="d-block">
+                    <header class="d-flex justify-content-between align-items-center w-100 px-3">
+                        <div class="header_toggle">
+                            <i class="icofont-navigation-menu fs-25 text-blue-700" id="header-toggle"></i>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <div class="notification_img me-2">
+                                <i class="icofont-notification fs-20 text-blue-700"></i>
+                            </div>
+                            <div class="header_img">
+                                <i class="icofont-user-alt-7 fs-25 text-blue-700"></i>
+                            </div>
+                        </div>
+                    </header>
+                    <div class="main-content-container">
