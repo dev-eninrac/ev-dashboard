@@ -116,14 +116,7 @@
 <style>
     .text-blue-700.elm-2-legend {
         width: 100%;
-        max-width: 100px;
-    }
-
-    .img-fluid {
-        margin-top: 20px;
-
-        max-width: 110%;
-        height: 300px;
+        max-width: 150px;
     }
 </style>
 <div class="container-fluid">
@@ -131,38 +124,57 @@
         <!-- Element-1 Start -->
         <div class="col-sm-6 col-md-5">
             <div class="card h-100">
-                <div class="card-header align-items-center text-blue-700 bg-white d-flex justify-content-between">
-                    <h2 class="fs-20 fw-bold">Overview</h2>
-                    <i class="icofont-plus"></i>
-                </div>
+                <div class="card-header fw-bold text-primary">Element 1 - Overview</div>
                 <div class="card-body">
                     <div class="row">
-                        <div class="col-sm-7 col-md-7">
-                            <div class="" style="box-shadow: none; height: 100%">
-                                <div class="">
-                                    <img src="./assets/images/GroupMap82.jpg" class="img-fluid" alt="">
+                        <div class="col-sm-6 col-md-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    This is the image section
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-5 col-md-5">
-                            <div class="d-flex flex-column" style="gap: 8px 0;">
-                                <div class="card bg-blue-600 p-1">
-                                    <p class="fs-14 text-white mb-2">Top Region</p>
-                                    <div class="fw-bold text-white fs-18 text-center">West Region</div>
-                                </div>
-                                <div class="card bg-blue-600 p-1">
-                                    <p class="fs-14 text-white mb-2">Top States</p>
-                                    <div class="fw-bold text-white fs-18 text-center">Maharashtra</div>
-                                </div>
-                                <div class="card bg-blue-600 p-1">
-                                    <p class="fs-14 text-white mb-2">Top Player</p>
-                                    <div class="fw-bold text-white fs-18 text-center">Excide</div>
-                                </div>
-                                <div class="card bg-blue-600 p-1">
-                                    <p class="fs-14 text-white mb-2">Top Category</p>
-                                    <div class="fw-bold text-white fs-18 text-center">2 Wheeler</div>
+                        <div class="col-sm-6 col-md-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row" style="gap: 15px 0;">
+                                        <div class="row-sm-6 ">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    Content-1
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row-sm-6">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    Content-2
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row-sm-6">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    Content-3
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row-sm-6 ">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    Content-4
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -171,10 +183,7 @@
         <!-- Element-2 Start -->
         <div class="col-sm-6 col-md-7">
             <div class="card h-100">
-                <div class="card-header align-items-center text-blue-700 bg-white  d-flex justify-content-between">
-                    <h2 class="fs-20 fw-bold">By Value</h2>
-                    <i class="icofont-plus"></i>
-                </div>
+                <div class="card-header fw-bold text-blue-700">By Value</div>
                 <div class="card-body">
                     <div class="row" style="gap: 15px 0;">
                         <div class="col-sm-6 col-md-6">
@@ -182,9 +191,9 @@
                                 <div class="card-body">
                                     <div class="d-flex justify-content-between">
                                         <div class="text-blue-700 elm-2-legend">
-                                            <h5 class="fw-bold fs-20">Regional Spread</h5>
-                                            <p class="fs-14 fw-light mb-1">By Value</p>
-                                            <p class="fs-30">12,253</p>
+                                            <h5 class="fw-bold fs-30">Regional Spread</h5>
+                                            <p class="fs-14 fw-light">By Value</p>
+                                            <h4 class="fs-25">12,253</h4>
                                         </div>
                                         <div id="TopRegion"></div>
                                     </div>
@@ -196,9 +205,9 @@
                                 <div class="card-body">
                                     <div class="d-flex justify-content-between">
                                         <div class="text-blue-700 elm-2-legend">
-                                            <h5 class="fw-bold fs-20">Top States</h5>
-                                            <p class="fs-14 fw-light mb-1">By Value</p>
-                                            <h4 class="fs-30">12,253</h4>
+                                            <h5 class="fw-bold fs-30">Top States</h5>
+                                            <p class="fs-14 fw-light">By Value</p>
+                                            <h4 class="fs-25">12,253</h4>
                                         </div>
                                         <div id="TopState"></div>
                                     </div>
@@ -210,9 +219,9 @@
                                 <div class="card-body">
                                     <div class="d-flex justify-content-between">
                                         <div class="text-blue-700 elm-2-legend">
-                                            <h5 class="fw-bold fs-20">Top Category</h5>
-                                            <p class="fs-14 fw-light mb-1">By Value</p>
-                                            <h4 class="fs-30">12,253</h4>
+                                            <h5 class="fw-bold fs-30">Top Category</h5>
+                                            <p class="fs-14 fw-light">By Value</p>
+                                            <h4 class="fs-25">12,253</h4>
                                         </div>
                                         <div id="TopCategoray"></div>
                                     </div>
@@ -224,9 +233,9 @@
                                 <div class="card-body">
                                     <div class="d-flex justify-content-between">
                                         <div class="text-blue-700 elm-2-legend">
-                                            <h5 class="fw-bold fs-20">Top Palyers</h5>
-                                            <p class="fs-14 fw-light mb-1">By Value</p>
-                                            <h4 class="fs-30">12,253</h4>
+                                            <h5 class="fw-bold fs-30">Top Palyers</h5>
+                                            <p class="fs-14 fw-light">By Value</p>
+                                            <h4 class="fs-25">12,253</h4>
                                         </div>
                                         <div id="TopPalyer"></div>
                                     </div>
@@ -240,77 +249,66 @@
         <!-- Element-3 Start -->
         <div class="col-sm-6 col-md-7">
             <div class="card h-100">
-                <div class="card-header align-items-center text-blue-700 bg-white d-flex    justify-content-between ">
-                    <h2 class="fs-20 fw-bold">By Volume</h2>
-                    <i class="icofont-plus"></i>
-                </div>
+                <div class="card-header fw-bold text-primary">Element 3 -By Volume</div>
                 <div class="card-body">
                     <div class="row" style="gap: 15px 0;">
                         <div class="col-sm-6 col-md-6">
-                            <div class="card h-100">
+                            <div class="card">
                                 <div class="card-body  ">
                                     <div class="d-flex justify-content-between">
-                                        <div class="text-blue-700 elm-2-legend">
-                                            <h5 class="fw-bold fs-20">Regional Spread</h5>
-                                            <p class="fs-14 fw-light mb-1">By Volume</p>
-                                            <p class="fs-30">12,253</p>
+                                        <div>
+                                            <h5 class="fw-bold text-primary ">Regional <br> Spread</h5>
+                                            <p class="fs-6"> By Volume</p>
+                                            <h4 class="mt-3 font-size-22">12,253</h4>
                                         </div>
-                                        <div id="Region"> </div>
                                     </div>
-
                                 </div>
-
+                                <div id="Region"> </div>
                             </div>
                         </div>
 
                         <div class="col-sm-6 col-md-6">
-                            <div class="card h-100">
+                            <div class="card">
                                 <div class="card-body  ">
                                     <div class="d-flex justify-content-between">
-                                        <div class="text-blue-700 elm-2-legend">
-                                            <h5 class="fw-bold fs-20">Top States</h5>
-                                            <p class="fs-14 fw-light mb-1">By State </p>
-                                            <p class="fs-30">12,253</p>
+                                        <div>
+                                            <h5 class="fw-bold text-primary ">Top <br> States</h5>
+                                            <p class="fs-6"> By Volume</p>
+                                            <h4 class="mt-3 font-size-22">12,253</h4>
                                         </div>
-                                        <div id="states"> </div>
                                     </div>
-
                                 </div>
-
+                                <div id="states"> </div>
                             </div>
                         </div>
 
                         <div class="col-sm-6 col-md-6">
-                            <div class="card h-100">
+                            <div class="card">
                                 <div class="card-body  ">
                                     <div class="d-flex justify-content-between">
-                                        <div class="text-blue-700 elm-2-legend">
-                                            <h5 class="fw-bold fs-20">Top Category</h5>
-                                            <p class="fs-14 fw-light mb-1">By Categories </p>
-                                            <p class="fs-30">12,253</p>
+                                        <div>
+                                            <h5 class="fw-bold text-primary">Top <br> Category</h5>
+                                            <p class="fs-6"> By Volume</p>
+                                            <h4 class="mt-3 font-size-22">12,253</h4>
                                         </div>
-                                        <div id="TopCategory"> </div>
                                     </div>
-
                                 </div>
-
+                                <div id="TopCategory"> </div>
                             </div>
                         </div>
 
                         <div class="col-sm-6 col-md-6">
-                            <div class="card h-100">
+                            <div class="card">
                                 <div class="card-body  ">
                                     <div class="d-flex justify-content-between">
-                                        <div class="text-blue-700 elm-2-legend">
-                                            <h5 class="fw-bold fs-20">Top Player</h5>
-                                            <p class="fs-14 fw-light mb-1">By Players </p>
-                                            <p class="fs-30">12,253</p>
+                                        <div>
+                                            <h5 class="fw-bold text-primary">Top <br> Players</h5>
+                                            <p class="fs-6"> By Volume</p>
+                                            <h4 class="mt-3 font-size-22">12,253</h4>
                                         </div>
-                                        <div id="TopPlayers"> </div>
                                     </div>
-
                                 </div>
-
+                                <div id="TopPlayers"> </div>
                             </div>
                         </div>
                     </div>
@@ -320,10 +318,7 @@
         <!-- Element-4 Start -->
         <div class="col-sm-6 col-md-5">
             <div class="card h-100">
-                <div class="card-header align-items-center text-blue-700 bg-white d-flex    justify-content-between">
-                    <h2 class="fs-20 fw-bold">By Category</h2>
-                    <i class="icofont-plus"></i>
-                </div>
+                <div class="card-header fw-bold text-primary">Element 4 - By Category</div>
                 <div class="card-body">
 
                     <div id="EV"></div>
@@ -334,16 +329,13 @@
         <!-- Element-5 Start -->
         <div class="col-sm-12 col-md-12">
             <div class="card h-100">
-                <div class="card-header align-items-center text-blue-700 bg-white d-flex    justify-content-between">
-                    <h2 class="fs-20 fw-bold">By Brand</h2>
-                    <i class="icofont-plus"></i>
-                </div>
+                <div class="card-header fw-bold text-primary">Element 5 - By Brand</div>
                 <div class="card-body">
                     <div class="row">
                         <div class="col-sm-6 col-md-6">
                             <div class="card">
                                 <div class="card-body">
-                                    <h5 class="text-blue-700">By Value</h5>
+                                    <h5 class="text-primary">By Value</h5>
                                     <div id="BrandValue"></div>
                                 </div>
                             </div>
@@ -352,7 +344,7 @@
                         <div class="col-sm-6 col-md-6">
                             <div class="card">
                                 <div class="card-body">
-                                    <h5 class="text-blue-700">By Volume</h5>
+                                    <h5 class="text-primary">By Volume</h5>
                                     <div id="BrandVolume"></div>
                                 </div>
                             </div>
@@ -377,43 +369,37 @@
             series: [44, 55, ],
             chart: {
                 type: 'donut',
-                width: '100%',
-                height: '100%',
-                offsetX: 0,
-                offsetY: 0
             },
-            colors: ['#1F58C7', '#1F58C730'],
             plotOptions: {
                 pie: {
                     startAngle: -90,
                     endAngle: 90,
-                    offsetY: 0
+                    offsetY: 10
                 }
             },
             grid: {
                 padding: {
                     top: 0,
                     right: 0,
-                    bottom: -30,
+                    bottom: 0,
                     left: 0
                 },
             },
             legend: {
-                show: true,
-                position: 'bottom',
-                horizontalAlign: 'center',
-                floating: true,
-                fontSize: '10px',
-                fontFamily: 'Helvetica, Arial',
-                fontWeight: 100,
-                height: 20,
-                offsetX: 0,
-                offsetY: 0,
-                itemMargin: {
-                    horizontal: 0,
-                    vertical: 0
-                },
+                position: 'bottom', // or 'right' or any other valid position
             },
+
+            responsive: [{
+                // breakpoint: 60,
+                options: {
+                    chart: {
+                        width: 50
+                    },
+                    legend: {
+                        position: 'bottom'
+                    },
+                }
+            }]
         };
         var valueRegion = new ApexCharts(document.querySelector("#TopRegion"), topReg);
         valueRegion.render();
@@ -423,43 +409,37 @@
             series: [44, 55, ],
             chart: {
                 type: 'donut',
-                width: '100%',
-                height: '100%',
-                offsetX: 0,
-                offsetY: 0
             },
-            colors: ['#1F58C7', '#1F58C730'],
             plotOptions: {
                 pie: {
                     startAngle: -90,
                     endAngle: 90,
-                    offsetY: 0
+                    offsetY: 10
                 }
             },
             grid: {
                 padding: {
                     top: 0,
                     right: 0,
-                    bottom: -30,
+                    bottom: 0,
                     left: 0
                 },
             },
             legend: {
-                show: true,
-                position: 'bottom',
-                horizontalAlign: 'center',
-                floating: true,
-                fontSize: '10px',
-                fontFamily: 'Helvetica, Arial',
-                fontWeight: 100,
-                height: 20,
-                offsetX: 0,
-                offsetY: 0,
-                itemMargin: {
-                    horizontal: 0,
-                    vertical: 0
-                },
+                position: 'bottom', // or 'right' or any other valid position
             },
+
+            responsive: [{
+                // breakpoint: 60,
+                options: {
+                    // chart: {
+                    //     width: 50
+                    // },
+                    legend: {
+                        position: 'bottom'
+                    },
+                }
+            }]
         };
         var valueState = new ApexCharts(document.querySelector("#TopState"), topSt);
         valueState.render();
@@ -469,59 +449,52 @@
             series: [44, 55, ],
             chart: {
                 type: 'donut',
-                width: '100%',
-                height: '100%',
-                offsetX: 0,
-                offsetY: 0
             },
-            colors: ['#1F58C7', '#1F58C730'],
             plotOptions: {
                 pie: {
                     startAngle: -90,
                     endAngle: 90,
-                    offsetY: 0
+                    offsetY: 10
                 }
             },
             grid: {
                 padding: {
                     top: 0,
                     right: 0,
-                    bottom: -30,
+                    bottom: 0,
                     left: 0
                 },
             },
             legend: {
-                show: true,
-                position: 'bottom',
-                horizontalAlign: 'center',
-                floating: true,
-                fontSize: '10px',
-                fontFamily: 'Helvetica, Arial',
-                fontWeight: 100,
-                height: 20,
-                offsetX: 0,
-                offsetY: 0,
-                itemMargin: {
-                    horizontal: 0,
-                    vertical: 0
-                },
+                position: 'bottom', // or 'right' or any other valid position
             },
+
+            responsive: [{
+                breakpoint: 60,
+                options: {
+                    chart: {
+                        width: 50
+                    },
+                    legend: {
+                        position: 'bottom'
+                    },
+                }
+            }]
         };
         var valueCat = new ApexCharts(document.querySelector("#TopCategoray"), topValCat);
         valueCat.render();
-
+        
 
         // Top Players
         var topValPlayer = {
             series: [44, 55, ],
             chart: {
                 type: 'donut',
+                height: '200px',
                 width: '100%',
-                height: '100%',
                 offsetX: 0,
                 offsetY: 0
             },
-            colors: ['#1F58C7', '#1F58C730'],
             plotOptions: {
                 pie: {
                     startAngle: -90,
@@ -533,7 +506,7 @@
                 padding: {
                     top: 0,
                     right: 0,
-                    bottom: -30,
+                    bottom: 0,
                     left: 0
                 },
             },
@@ -542,7 +515,7 @@
                 position: 'bottom',
                 horizontalAlign: 'center',
                 floating: true,
-                fontSize: '10px',
+                fontSize: '12px',
                 fontFamily: 'Helvetica, Arial',
                 fontWeight: 100,
                 height: 20,
@@ -562,42 +535,23 @@
         //Top Regions
         var regions = {
             series: [44, 55, ],
-            labels: ['Legend-1', 'Legened-2', ],
-
-
             chart: {
                 type: 'donut',
-                width: '100%',
-                offsetX: 0,
-                offsetY: 0
-            },
-            colors: ['#1F58C7', '#1F58C730'],
-
-            grid: {
-                padding: {
-                    top: 0,
-                    right: 0,
-                    bottom: 20,
-                    left: 0
-                },
             },
             legend: {
-                show: true,
-                position: 'bottom',
-                horizontalAlign: 'center',
-                floating: true,
-                fontSize: '10px',
-                fontFamily: 'Helvetica, Arial',
-                fontWeight: 100,
-                height: 20,
-                offsetX: 0,
-                offsetY: 0,
-                itemMargin: {
-                    horizontal: 0,
-                    vertical: 0
-                },
-
+                position: 'bottom'
             },
+            responsive: [{
+                breakpoint: 280,
+                options: {
+                    chart: {
+                        width: 200
+                    },
+                    legend: {
+                        position: 'bottom'
+                    }
+                }
+            }]
         };
         var topRegion = new ApexCharts(document.querySelector("#Region"), regions);
         topRegion.render();
@@ -606,38 +560,23 @@
         //Top States
         var states = {
             series: [44, 55, ],
-            labels: ['Legend-1', 'Legened-2', ],
             chart: {
                 type: 'donut',
-                width: '100%',
-                offsetX: 0,
-                offsetY: 0
-            },
-            colors: ['#1F58C7', '#1F58C730'],
-            grid: {
-                padding: {
-                    top: 0,
-                    right: 0,
-                    bottom: 20,
-                    left: 0
-                },
             },
             legend: {
-                show: true,
-                position: 'bottom',
-                horizontalAlign: 'center',
-                floating: true,
-                fontSize: '10px',
-                fontFamily: 'Helvetica, Arial',
-                fontWeight: 100,
-                height: 20,
-                offsetX: 0,
-                offsetY: 0,
-                itemMargin: {
-                    horizontal: 0,
-                    vertical: 0
-                },
+                position: 'bottom'
             },
+            responsive: [{
+                breakpoint: 280,
+                options: {
+                    chart: {
+                        width: 200
+                    },
+                    legend: {
+                        position: 'bottom'
+                    }
+                }
+            }]
         };
         var topStates = new ApexCharts(document.querySelector("#states"), states);
         topStates.render();
@@ -645,81 +584,49 @@
         //Top Players
         var players = {
             series: [44, 55, ],
-            labels: ['Legend-1', 'Legened-2', ],
             chart: {
                 type: 'donut',
-                width: '100%',
-                offsetX: 0,
-                offsetY: 0
-            },
-            colors: ['#1F58C7', '#1F58C730'],
-
-            grid: {
-                padding: {
-                    top: 0,
-                    right: 0,
-                    bottom: 20,
-                    left: 0
-                },
             },
             legend: {
-                show: true,
-                position: 'bottom',
-                horizontalAlign: 'center',
-                floating: true,
-                fontSize: '10px',
-                fontFamily: 'Helvetica, Arial',
-                fontWeight: 100,
-                height: 20,
-                offsetX: 0,
-                offsetY: 0,
-                itemMargin: {
-                    horizontal: 0,
-                    vertical: 0
-                },
+                position: 'bottom'
             },
+            responsive: [{
+                breakpoint: 280,
+                options: {
+                    chart: {
+                        width: 200
+                    },
+                    legend: {
+                        position: 'bottom'
+                    }
+                }
+            }]
         };
         var topPlay = new ApexCharts(document.querySelector("#TopCategory"), players);
         topPlay.render();
 
         //Top Category
-        var categ = {
+        var category = {
             series: [44, 55, ],
-            labels: ['Legend-1', 'Legened-2', ],
             chart: {
                 type: 'donut',
-                width: '100%',
-                offsetX: 0,
-                offsetY: 0
-            },
-            colors: ['#1F58C7', '#1F58C730'],
-
-            grid: {
-                padding: {
-                    top: 0,
-                    right: 0,
-                    bottom: 20,
-                    left: 0
-                },
             },
             legend: {
-                show: true,
                 position: 'bottom',
-                horizontalAlign: 'center',
-                floating: true,
-                fontSize: '10px',
-                fontFamily: 'Helvetica, Arial',
-                fontWeight: 100,
-                height: 20,
-                offsetX: 0,
-                offsetY: 0,
-                itemMargin: {
-                    horizontal: 0,
-                    vertical: 0,
-                },
             },
+            responsive: [{
+                breakpoint: 280,
+                options: {
+                    chart: {
+                        width: 200
+                    },
+                    legend: {
+                        position: 'bottom'
+                    },
+                }
+            }]
         };
-        var topCat = new ApexCharts(document.querySelector("#TopPlayers"), categ);
+        var topCat = new ApexCharts(document.querySelector("#TopPlayers"), category);
         topCat.render();
 
 
@@ -728,13 +635,12 @@
             series: [{
                 name: 'Website Blog',
                 type: 'column',
-                data: [440, 505, 414, 601, 227, 413, 201, 352, ]
+                data: [440, 505, 414, 671, 227, 413, 201, 352, ]
             }, {
                 name: 'Social Media',
                 type: 'line',
                 data: [23, 42, 35, 27, 43, 22, 17, 31, ]
             }],
-            colors: ['#1F58C7', '#1F58C790'],
             chart: {
                 height: 350,
                 type: 'line',
@@ -743,8 +649,7 @@
                 width: [0, 4]
             },
             title: {
-                text: '4 Wheeler EV Sales ',
-                colors: ['#1F58C7'],
+                text: '4 Wheeler EV Sales '
             },
             dataLabels: {
                 enabled: true,
@@ -756,13 +661,13 @@
             },
             yaxis: [{
                 title: {
-                    text: '',
+                    text: 'Website Blog',
                 },
 
             }, {
                 opposite: true,
                 title: {
-                    text: ''
+                    text: 'Social Media'
                 }
             }]
         };
@@ -773,92 +678,85 @@
 
         var opt = {
             chart: {
-                height: 250,
+                height: 400,
                 type: 'bubble',
             },
             dataLabels: {
                 enabled: false,
             },
             series: [{
-                    // name: 'Bubble Chart',
+                    name: 'Bubble Chart',
                     data: [{
-                            x: 50,
-                            y: 89,
-                            z: 89
+                            x: 1,
+                            y: 8,
+                            z: 3
                         }, // Example data point
                         {
                             x: 9,
-                            y: 50,
-                            z: 99
+                            y: 5,
+                            z: 3
                         }, // Add more data points as needed
                         {
                             x: 14,
                             y: 10,
-                            z: 78
-                        },
-                        {
-                            x: 99,
-                            y: 100,
-                            z: 95
-                        },
-                    ],
-                },
-                {
-                    // name: 'P-2',
-                    data: [{
-                            x: 99,
-                            y: 303,
-                            z: 39
-                        },
-                        {
-                            x: 5,
-                            y: 100,
-                            z: 10
-                        },
-                        {
-                            x: 205,
-                            y: 30,
-                            z: 299
-                        },
-
-                        {
-                            x: 90,
-                            y: 159,
-                            z: 370
+                            z: 7
                         },
                         {
                             x: 9,
-                            y: 10,
+                            y: 1,
                             z: 3
                         },
                     ],
                 },
                 {
-                    // name: 'P-1',
+                    name: 'P-2',
+                    data: [{
+                            x: 9,
+                            y: 1,
+                            z: 3
+                        },
+                        {
+                            x: 5,
+                            y: 0,
+                            z: 10
+                        },
+                        {
+                            x: 9,
+                            y: 5,
+                            z: 3
+                        },
+                        {
+                            x: 9,
+                            y: 1,
+                            z: 3
+                        },
+                    ],
+                },
+                {
+                    name: 'P-1',
                     data: [{
                             x: 14,
-                            y: 100,
-                            z: 99
+                            y: 10,
+                            z: 7
                         },
                         {
-                            x: 90,
-                            y: 100,
-                            z: 216
+                            x: 9,
+                            y: 1,
+                            z: 3
                         },
                         {
                             x: 14,
-                            y: 190,
-                            z: 234
+                            y: 10,
+                            z: 7
                         },
                         {
-                            x: 98,
-                            y: 265,
-                            z: 300
+                            x: 9,
+                            y: 1,
+                            z: 3
                         },
                     ],
                 },
             ],
-            colors: ['#1F58C7', '#1F58C740', '#1F58C770'],
             xaxis: {
                 title: {
                     text: 'Quality',
@@ -873,132 +771,99 @@
         var chart = new ApexCharts(document.querySelector("#BrandVolume"), opt);
         chart.render();
 
-
-        var opti = {
+        var op = {
+            chart: {
+                height: 400,
+                type: 'bubble',
+            },
+            dataLabels: {
+                enabled: false,
+            },
             series: [{
-                    name: 'Bubble Chart1',
+                    name: 'Bubble Chart',
                     data: [{
-                            x: 50,
-                            y: 89,
-                            z: 89
+                            x: 1,
+                            y: 8,
+                            z: 3
                         }, // Example data point
                         {
-                            x: 98,
-                            y: 50,
-                            z: 99
+                            x: 9,
+                            y: 5,
+                            z: 3
                         }, // Add more data points as needed
                         {
                             x: 14,
-                            y: 190,
-                            z: 78
+                            y: 10,
+                            z: 7
                         },
                         {
-                            x: 99,
-                            y: 100,
-                            z: 95
+                            x: 9,
+                            y: 1,
+                            z: 3
                         },
                     ],
                 },
                 {
-                    name: 'Bubble Chart2',
+                    name: 'P-2',
                     data: [{
-                            x: 59,
-                            y: 89,
-                            z: 89
+                            x: 9,
+                            y: 1,
+                            z: 3
                         },
                         {
-                            x: 98,
-                            y: 150,
-                            z: 109
+                            x: 5,
+                            y: 0,
+                            z: 10
                         },
                         {
-                            x: 205,
-                            y: 30,
-                            z: 299
-                        },
-
-                        {
-                            x: 90,
-                            y: 159,
-                            z: 370
+                            x: 9,
+                            y: 5,
+                            z: 3
                         },
                         {
-                            x: 99,
-                            y: 100,
-                            z: 200
+                            x: 9,
+                            y: 1,
+                            z: 3
                         },
                     ],
                 },
                 {
-                    name: 'Buble Chart3',
+                    name: 'P-1',
                     data: [{
-                            x: 140,
-                            y: 100,
-                            z: 99
+                            x: 14,
+                            y: 10,
+                            z: 7
                         },
                         {
-                            x: 290,
-                            y: 100,
-                            z: 216
+                            x: 9,
+                            y: 1,
+                            z: 3
                         },
                         {
-                            x: 214,
-                            y: 320,
-                            z: 234
+                            x: 14,
+                            y: 10,
+                            z: 7
                         },
                         {
-                            x: 198,
-                            y: 265,
-                            z: 300
+                            x: 9,
+                            y: 1,
+                            z: 3
                         },
                     ],
                 },
             ],
-            colors: ['#1F58C7', '#1F58C790', '#1F58C750'],
-            chart: {
-                height: 250,
-                type: 'bubble',
-                toolbar: {
-                    show: false
-                }
-            },
-            // plotOptions: {
-            //     bar: {
-            //         distributed: true,
-            //         horizontal: true
-            //     }
-            // },
-            dataLabels: {
-                enabled: false
-            },
-            // fill: {
-            //   type: 'gradient',
-            // },
-            // title: {
-            //   text: '3D Bubble Chart'
-            // },
             xaxis: {
-                //   tickAmount: 0,
-                //   type: 'data',
-                labels: {
-                    rotate: 0,
-                },
                 title: {
                     text: 'Quality',
                 },
             },
             yaxis: {
-                //   max: 300,
                 title: {
                     text: 'Price',
                 },
             },
-            // theme: {
-            //   palette: 'palette2'
-            // }
         };
-
-        var chart = new ApexCharts(document.querySelector("#BrandValue"), opti);
+        var chart = new ApexCharts(document.querySelector("#BrandValue"), op);
         chart.render();
     });
 </script>
