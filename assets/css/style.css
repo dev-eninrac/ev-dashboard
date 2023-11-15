@@ -2,6 +2,7 @@
 @import "owl.carousel.min.css";
 @import "owl.theme.default.min.css";
 @import "apexcharts.css";
+@import "perfect-scrollbar.css";
 
 :root {
   --body-font: "Nunito", sans-serif;
@@ -42,7 +43,10 @@ a {
 .list-style-none {
   list-style: none;
 }
-
+.breadcrumb-item+.breadcrumb-item::before {
+  font-family: Icofont !important;
+  content: "\eab8" !important;
+}
 
 .text-blue-100 {
   color: var(--blue-100);
@@ -171,7 +175,7 @@ a {
   position: sticky;
   top: 0;
   background: var(--white-100);
-  z-index: 9;
+  z-index: 9999;
 }
 .wrapper-container .logo {
   border-bottom: 1px solid var(--blue-200);
@@ -191,3 +195,16 @@ a {
 }
 
 /*============= navigation toggle end ======== */
+
+.elm-2-legend {
+  width: 100%;
+  max-width: 100px;
+}
+
+.sidebar-area-container-wrapper {
+  overflow: hidden;
+  background: transparent;
+  position: relative;
+  height: 90vh;
+  width: 100%;
+}

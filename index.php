@@ -1,6 +1,13 @@
-<?php require('header.php') ?>
-
-
+<?php
+$HEADER_PATH = "<nav class='header-breadcrumb px-2' aria-label='breadcrumb'>
+<ol class='breadcrumb mb-0'>
+  <li class='breadcrumb-item fs-14 text-darklight-400'>Marekt Sizing</li>
+  <li class='breadcrumb-item fs-14 text-darklight-400'>Sales</li>
+  <li class='breadcrumb-item fs-14 text-darklight-400'>Batteries</li>
+</ol>
+</nav>";
+require('header.php')
+?>
 <div class="filter-container bg-white-100" style="position: sticky;top: 65px; z-index:9999;border-bottom: 1px solid var(--blue-200);margin-bottom: 15px;">
     <div class="card rounded-0">
         <div class="card-body">
@@ -113,19 +120,6 @@
         </div>
     </div>
 </div>
-<style>
-    .text-blue-700.elm-2-legend {
-        width: 100%;
-        max-width: 100px;
-    }
-
-    .img-fluid {
-        margin-top: 20px;
-
-        max-width: 110%;
-        height: 300px;
-    }
-</style>
 <div class="container-fluid">
     <div class="row" style="gap: 15px 0;">
         <!-- Element-1 Start -->

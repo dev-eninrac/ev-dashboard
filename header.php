@@ -26,7 +26,10 @@
                 <div class="d-block">
                     <header class="d-flex justify-content-between align-items-center w-100 px-3">
                         <div class="header_toggle">
+                            <div class="d-flex align-items-center">
                             <i class="icofont-navigation-menu fs-25 text-blue-700" id="header-toggle"></i>
+                            <?php echo $HEADER_PATH ?>
+                            </div>                            
                         </div>
                         <div class="d-flex align-items-center">
                             <div class="notification_img me-2">
