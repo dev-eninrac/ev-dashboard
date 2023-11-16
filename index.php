@@ -396,13 +396,11 @@ require('header.php')
                 show: true,
                 position: 'bottom',
                 horizontalAlign: 'center',
-                floating: true,
+                floating: false,
                 fontSize: '10px',
                 fontFamily: 'Helvetica, Arial',
                 fontWeight: 100,
-                height: 20,
-                offsetX: 0,
-                offsetY: 0,
+                height: 0,
                 itemMargin: {
                     horizontal: 0,
                     vertical: 0

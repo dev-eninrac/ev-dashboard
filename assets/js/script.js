@@ -1,7 +1,6 @@
 const showNavbar = (toggleId, wrapper) => {
     let nevToggle = document.querySelector(toggleId)
-    let wrapperNev = document.querySelector(wrapper)
-    // // Validate that all variables exist  
+    let wrapperNev = document.querySelector(wrapper) 
     nevToggle.addEventListener('click', () => {
         // show navbar
         wrapperNev.classList.toggle('desk-v-width')
@@ -11,24 +10,27 @@ const showNavbar = (toggleId, wrapper) => {
         nevToggle.classList.toggle('icofont-close-line')
     })
 }
-const activateDropDown = (element) =>{
+const activateDropDown = (element) => {
     let dropDownAction = document.querySelectorAll(element);
     dropDownAction.forEach((item, key) => {
         item.addEventListener('click', (e) => {
+            item.parentElement.classList.toggle('active')
             item.lastElementChild.classList.toggle('icofont-rounded-up')
             item.lastElementChild.classList.toggle('icofont-rounded-down')
-            item.nextElementSibling.classList.toggle('d-none');
             dropDownAction.forEach((i, k) => {
-                if (key != k && !i.nextElementSibling.classList.contains('d-none') && item.attributes['data-target'] == 'parent') {
-                    i.lastElementChild.classList.toggle('icofont-rounded-up')
-                    i.lastElementChild.classList.toggle('icofont-rounded-down')
-                    i.nextElementSibling.classList.toggle('d-none')
+                if (key != k) {
+                    i.parentElement.classList.remove('active')
+                    if(i.lastElementChild.classList.contain('icofont-rounded-down')){
+                        i.lastElementChild.classList.toggle('icofont-rounded-up')
+                        i.lastElementChild.classList.toggle('icofont-rounded-down')
+                    }
                 }
             })
         })
     })
 }
-const sideBarScroll = (element) =>{
+
+const sideBarScroll = (element) => {
     let container = document.querySelector(element);
     let ps = new PerfectScrollbar(container, {
         wheelSpeed: 2,
@@ -44,6 +46,10 @@ const sideBarScroll = (element) =>{
         document.querySelector('body').style.overflow = "auto"
     })
 }
+
+
+
+
 document.addEventListener("DOMContentLoaded", function (event) {
     showNavbar('#header-toggle', '.wrapper-container')
     activateDropDown('.dropdown-action')
