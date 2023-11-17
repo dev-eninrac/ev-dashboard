@@ -1,6 +1,6 @@
 const showNavbar = (toggleId, wrapper) => {
     let nevToggle = document.querySelector(toggleId)
-    let wrapperNev = document.querySelector(wrapper) 
+    let wrapperNev = document.querySelector(wrapper)
     nevToggle.addEventListener('click', () => {
         // show navbar
         wrapperNev.classList.toggle('desk-v-width')
@@ -20,13 +20,26 @@ const activateDropDown = (element) => {
             dropDownAction.forEach((i, k) => {
                 if (key != k) {
                     i.parentElement.classList.remove('active')
-                    if(i.lastElementChild.classList.contain('icofont-rounded-down')){
+                    if (i.lastElementChild.classList.contains('icofont-rounded-down')) {
                         i.lastElementChild.classList.toggle('icofont-rounded-up')
                         i.lastElementChild.classList.toggle('icofont-rounded-down')
                     }
                 }
             })
         })
+    })
+
+    let currentUrl = window.location.href;
+    let links = document.querySelectorAll('.sidebar-area-container-wrapper a');
+    links.forEach((link, key) => {
+        if (link.href == currentUrl) {
+            if (link.parentElement.parentElement.classList.contains('sidebar-area-container')) {
+                link.parentElement.classList.add('active');
+            } else {
+                link.classList.add('active');
+                link.parentElement.parentElement.parentElement.classList.add('active')
+            }
+        }
     })
 }
 
@@ -47,11 +60,22 @@ const sideBarScroll = (element) => {
     })
 }
 
-
-
-
+function observatoryShowAndHide(element) {
+    if (document.querySelectorAll(element) != null || document.querySelectorAll(element) != undefined) {
+        let observatoryBtn = document.querySelectorAll(element);
+        observatoryBtn.forEach((item) => {
+            item.addEventListener('click', () => {
+                item.classList.toggle('icofont-plus')
+                item.classList.toggle('icofont-minus')
+                item.parentElement.nextElementSibling.lastElementChild.classList.toggle('d-none')
+            })
+        })
+    }
+}
 document.addEventListener("DOMContentLoaded", function (event) {
     showNavbar('#header-toggle', '.wrapper-container')
     activateDropDown('.dropdown-action')
     sideBarScroll('.sidebar-area-container-wrapper')
+    observatoryShowAndHide('.observatory-btn')
 });
+
