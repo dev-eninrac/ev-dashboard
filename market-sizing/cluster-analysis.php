@@ -2,7 +2,7 @@
 $HEADER_PATH = "<nav class='header-breadcrumb px-2' aria-label='breadcrumb'>
 <ol class='breadcrumb mb-0'>
   <li class='breadcrumb-item fs-14 text-darklight-400'>Marekt Sizing</li>
-  <li class='breadcrumb-item fs-14 text-darklight-400'>Attractive Index</li>
+  <li class='breadcrumb-item fs-14 text-darklight-400'>Cluster Analysis</li>
 </ol>
 </nav>";
 require('../header.php');
@@ -64,7 +64,7 @@ require('../filter.php')
             <div class="col-md-7">
               <div class="" style="box-shadow: none; height: 100%">
                 <div>
-                  <img src="http://localhost/ev-dashboard/assets/images/pli-chart-state.png" class="img-fluid" alt="">
+                  <img src="http://localhost/ev-dashboard/assets/images/pli-chart.png" class="img-fluid" alt="">
                 </div>
               </div>
             </div>

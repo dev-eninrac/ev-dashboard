@@ -26,9 +26,9 @@
             </a>
         </li>
         <li class="">
-            <a class="list-menu" href="http://localhost/ev-dashboard/market-sizing/updates.php">
+            <a class="list-menu" href="http://localhost/ev-dashboard/market-sizing/cluster-analysis.php">
                 <i class="menu-ico icofont-navigation-menu fs-25"></i>
-                <span class="m-title">Updates</span>
+                <span class="m-title">Cluster Analysis</span>
             </a>
         </li>
         <li class="">

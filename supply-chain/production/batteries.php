@@ -1,9 +1,9 @@
 <?php
 $HEADER_PATH = "<nav class='header-breadcrumb px-2' aria-label='breadcrumb'>
 <ol class='breadcrumb mb-0'>
-  <li class='breadcrumb-item fs-14 text-darklight-400'>Marekt Sizing</li>
-  <li class='breadcrumb-item fs-14 text-darklight-400'>Sales</li>
-  <li class='breadcrumb-item fs-14 text-darklight-400'>Tyres</li>
+<li class='breadcrumb-item fs-14 text-darklight-400'>Supply Chain</li>
+<li class='breadcrumb-item fs-14 text-darklight-400'>Production</li>
+  <li class='breadcrumb-item fs-14 text-darklight-400'>Batteries</li>
 </ol>
 </nav>";
 require('../../header.php');
@@ -340,6 +340,7 @@ require('../../filter.php')
         </div>
     </div>
 </div>
+
 
 <script>
     document.addEventListener("DOMContentLoaded", function() {
@@ -923,4 +924,11 @@ require('../../filter.php')
         chart.render();
     });
 </script>
+
+
+
+
+
+
+
 <?php require('../../footer.php') ?>
