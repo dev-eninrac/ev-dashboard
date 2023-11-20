@@ -77,5 +77,35 @@ document.addEventListener("DOMContentLoaded", function (event) {
     activateDropDown('.dropdown-action')
     sideBarScroll('.sidebar-area-container-wrapper')
     observatoryShowAndHide('.observatory-btn')
+    updateSection('.notification_img', '.update-title-wrapper li', '.content-text-update')
 });
+
+
+function updateSection(notification, update, content_text_update) {
+    if (document.querySelector(notification) != null || document.querySelector(notification) != undefined) {
+        let notification_img = document.querySelector(notification)
+        let list = document.querySelectorAll(update)
+        let listContent = document.querySelectorAll(content_text_update)
+        list.forEach((item, key) => {
+            item.addEventListener('click', () => {
+                if (item.classList.contains('text-darklight-400')) {
+                    item.classList.toggle('text-darklight-400');
+                    listContent[key].classList.toggle('d-none')
+                    list.forEach((i, k) => {
+                        if (key != k) {
+                            i.classList.toggle('text-darklight-400');
+                            listContent[k].classList.toggle('d-none')
+                        }
+                    })
+                }
+            })
+        })
+
+        notification_img.addEventListener('click', () => {
+            notification_img.classList.toggle('arrowActive')
+            document.querySelector('.update-wrapper').classList.toggle('d-none')
+        })
+    }
+
+}
 

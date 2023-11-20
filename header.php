@@ -22,14 +22,26 @@
                     <?php require('sidebar.php') ?>
                 </nav>
             </aside>
-            <div class="full-width-container content-wrapper">
+            <style>
+                .notification_img.arrowActive::after {
+                    content: "\ea6a";
+                    position: absolute;
+                    bottom: -12px;
+                    margin-left: -29px;
+                    font-family: "IcoFont" !important;
+                    font-size: 40px;
+                    line-height: 33px;
+                    color: var(--darklight-300);
+                }
+            </style>
+            <div class="full-width-container content-wrapper position-relative">
                 <div class="d-block">
                     <header class="d-flex justify-content-between align-items-center w-100 px-3">
                         <div class="header_toggle">
                             <div class="d-flex align-items-center">
-                            <i class="icofont-navigation-menu fs-25 text-blue-700" id="header-toggle"></i>
-                            <?php echo $HEADER_PATH ?>
-                            </div>                            
+                                <i class="icofont-navigation-menu fs-25 text-blue-700" id="header-toggle"></i>
+                                <?php echo $HEADER_PATH ?>
+                            </div>
                         </div>
                         <div class="d-flex align-items-center">
                             <div class="notification_img me-2">
