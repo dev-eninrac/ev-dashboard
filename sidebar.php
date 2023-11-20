@@ -74,6 +74,12 @@
                 <span class="m-title">Cluster Analysis</span>
             </a>
         </li>
+        <li class="">
+            <a class="list-menu" href="http://localhost/ev-dashboard/supply-chain/voc-feeds-and-findings.php">
+                <i class="menu-ico icofont-navigation-menu fs-25"></i>
+                <span class="m-title">VoC Feeds & Findings</span>
+            </a>
+        </li>
         <li class="coltitle py-2"><small>THEME</small></li>
         <li class="">
             <a class="list-menu" href="http://localhost/ev-dashboard/theme/state-level-policy.php">
