@@ -104,6 +104,11 @@ function updateSection(notification, update, content_text_update) {
         notification_img.addEventListener('click', () => {
             notification_img.classList.toggle('arrowActive')
             document.querySelector('.update-wrapper').classList.toggle('d-none')
+            if(notification_img.classList.contains('arrowActive')){
+                document.querySelector('body').style.overflow = "hidden"
+            }else{
+                document.querySelector('body').style.overflow = "auto"
+            }
         })
     }
 

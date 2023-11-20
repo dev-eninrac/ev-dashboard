@@ -37,6 +37,12 @@
         padding-bottom: 15px;
     }
 
+    .update-title-wrapper {
+        position: sticky;
+        top: 0;
+        background: var(--darklight-100);
+    }
+
     .update-title-wrapper li {
         flex: 1;
         text-align: center;

@@ -3,7 +3,7 @@
         <li class="coltitle py-2"><small>MARKET SIZING</small></li>
         <li class="dropdown-container">
             <div class="dropdown-action">
-                <i class="menu-ico icofont-navigation-menu fs-25"></i>
+                <i class="menu-ico icon-enin icon-sales fs-25"></i>
                 <span class="m-title">Sales</span>
                 <i class="arrow-ico icofont-rounded-up fs-20"></i>
             </div>
@@ -21,32 +21,32 @@
         </li>
         <li class="">
             <a class="list-menu" href="http://localhost/ev-dashboard/market-sizing/attractive-index.php">
-                <i class="menu-ico icofont-navigation-menu fs-25"></i>
+                <i class="menu-ico icon-enin icon-attractive-index fs-25"></i>
                 <span class="m-title">Attractive Index</span>
             </a>
         </li>
         <li class="">
             <a class="list-menu" href="http://localhost/ev-dashboard/market-sizing/cluster-analysis.php">
-                <i class="menu-ico icofont-navigation-menu fs-25"></i>
+                <i class="menu-ico icon-enin icon-cluster-analysis fs-25"></i>
                 <span class="m-title">Cluster Analysis</span>
             </a>
         </li>
         <li class="">
             <a class="list-menu" href="http://localhost/ev-dashboard/market-sizing/industry-comments.php">
-                <i class="menu-ico icofont-navigation-menu fs-25"></i>
+                <i class="menu-ico icon-enin icon-industry-comments fs-25"></i>
                 <span class="m-title">Industry Comments</span>
             </a>
         </li>
         <li class="">
             <a class="list-menu" href="http://localhost/ev-dashboard/market-sizing/voc-feeds-and-findings.php">
-                <i class="menu-ico icofont-navigation-menu fs-25"></i>
+                <i class="menu-ico icon-enin icon-voc-survey fs-25"></i>
                 <span class="m-title">VoC Feeds & Findings</span>
             </a>
         </li>
         <li class="coltitle py-2"><small>SUPPLY CHAIN</small></li>
         <li class="dropdown-container">
             <div class="dropdown-action">
-                <i class="menu-ico icofont-navigation-menu fs-25"></i>
+                <i class="menu-ico icon-enin icon-production fs-25"></i>
                 <span class="m-title">Production</span>
                 <i class="arrow-ico icofont-rounded-up fs-20"></i>
             </div>
@@ -64,82 +64,82 @@
         </li>
         <li class="">
             <a class="list-menu" href="http://localhost/ev-dashboard/supply-chain/support-index.php">
-                <i class="menu-ico icofont-navigation-menu fs-25"></i>
+                <i class="menu-ico icon-enin icon-support-index fs-25"></i>
                 <span class="m-title">Support Index</span>
             </a>
         </li>
         <li class="">
             <a class="list-menu" href="http://localhost/ev-dashboard/supply-chain/cluster-analysis.php">
-                <i class="menu-ico icofont-navigation-menu fs-25"></i>
+                <i class="menu-ico icon-enin icon-cluster-analysis fs-25"></i>
                 <span class="m-title">Cluster Analysis</span>
             </a>
         </li>
         <li class="">
             <a class="list-menu" href="http://localhost/ev-dashboard/supply-chain/voc-feeds-and-findings.php">
-                <i class="menu-ico icofont-navigation-menu fs-25"></i>
+                <i class="menu-ico icon-enin icon-voc-survey fs-25"></i>
                 <span class="m-title">VoC Feeds & Findings</span>
             </a>
         </li>
         <li class="coltitle py-2"><small>THEME</small></li>
         <li class="">
             <a class="list-menu" href="http://localhost/ev-dashboard/theme/state-level-policy.php">
-                <i class="menu-ico icofont-navigation-menu fs-25"></i>
+                <i class="menu-ico icon-enin icon-state-level-policy fs-25"></i>
                 <span class="m-title">State Level policy</span>
             </a>
         </li>
         <li class="">
             <a class="list-menu" href="http://localhost/ev-dashboard/theme/state-level-schemes.php">
-                <i class="menu-ico icofont-navigation-menu fs-25"></i>
+                <i class="menu-ico icon-enin icon-state-level-scheme fs-25"></i>
                 <span class="m-title">State level schemes</span>
             </a>
         </li>
         <li class="">
             <a class="list-menu" href="http://localhost/ev-dashboard/theme/central-level-policy.php">
-                <i class="menu-ico icofont-navigation-menu fs-25"></i>
+                <i class="menu-ico icon-enin icon-central-level-policy fs-25"></i>
                 <span class="m-title">Central level policy</span>
             </a>
         </li>
         <li class="">
             <a class="list-menu" href="http://localhost/ev-dashboard/theme/central-level-schemes.php">
-                <i class="menu-ico icofont-navigation-menu fs-25"></i>
+                <i class="menu-ico icon-enin icon-central-level-scheme fs-25"></i>
                 <span class="m-title">Central level Schemes</span>
             </a>
         </li>
         <li class="">
             <a class="list-menu" href="http://localhost/ev-dashboard/theme/pli.php">
-                <i class="menu-ico icofont-navigation-menu fs-25"></i>
+                <i class="menu-ico icon-enin icon-pli fs-25"></i>
                 <span class="m-title">PLI</span>
             </a>
         </li>
         <li class="">
             <a class="list-menu" href="http://localhost/ev-dashboard/theme/investment-and-deal-tracker.php">
-                <i class="menu-ico icofont-navigation-menu fs-25"></i>
+                <i class="menu-ico icon-enin icon-investment-deal-tracker fs-25"></i>
                 <span class="m-title">Investment & Deal tracker</span>
             </a>
         </li>
         <li class="coltitle py-2"><small>FUTURE MARKET & DEMAND OUTLOOK</small></li>
         <li class="">
             <a class="list-menu" href="http://localhost/ev-dashboard/future-market-and-demand-outlook/sales.php">
-                <i class="menu-ico icofont-navigation-menu fs-25"></i>
+                <i class="menu-ico icon-enin icon-sales fs-25"></i>
                 <span class="m-title">Sales</span>
             </a>
         </li>
         <li class="">
             <a class="list-menu" href="http://localhost/ev-dashboard/future-market-and-demand-outlook/production.php">
-                <i class="menu-ico icofont-navigation-menu fs-25"></i>
+                <i class="menu-ico icon-enin icon-production fs-25"></i>
                 <span class="m-title">Production</span>
             </a>
         </li>
         <li class="coltitle py-2"><small>Competitor Intelligence</small></li>
         <li class="">
             <a class="list-menu" href="http://localhost/ev-dashboard/competitor-intelligence/brand-track.php">
-                <i class="menu-ico icofont-navigation-menu fs-25"></i>
+                <i class="menu-ico icon-enin icon-brand-track fs-25"></i>
                 <span class="m-title">Brand Track</span>
             </a>
         </li>
         <li class="">
             <a class="list-menu" href="http://localhost/ev-dashboard/competitor-intelligence/competition-benchmarks.php">
-                <i class="menu-ico icofont-navigation-menu fs-25"></i>
+                <i class="menu-ico icon-enin icon-competition-benchmarking fs-25"></i>
                 <span class="m-title">Competition Benchmarks</span>
             </a>
         </li>

@@ -23,11 +23,14 @@
                 </nav>
             </aside>
             <style>
+                .notification_img,.icofont-navigation-menu,.header_img{
+                    cursor: pointer;
+                }
                 .notification_img.arrowActive::after {
                     content: "\ea6a";
                     position: absolute;
                     bottom: -12px;
-                    margin-left: -29px;
+                    margin-left: -32px;
                     font-family: "IcoFont" !important;
                     font-size: 40px;
                     line-height: 33px;
@@ -44,8 +47,8 @@
                             </div>
                         </div>
                         <div class="d-flex align-items-center">
-                            <div class="notification_img me-2">
-                                <i class="icofont-notification fs-20 text-blue-700"></i>
+                            <div class="notification_img me-4">
+                                <i class="icon-enin icon-updates fs-25 text-blue-700"></i>
                             </div>
                             <div class="header_img">
                                 <i class="icofont-user-alt-7 fs-25 text-blue-700"></i>
